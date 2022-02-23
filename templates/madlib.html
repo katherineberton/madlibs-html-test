@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>Your madlib!</title>
+  <link rel="stylesheet" href="/static/madlibs.css">
+</head>
+<body>
+
+<h3>Here's your madlib:</h3>
+<p>
+    There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab.
+    When {{ person }} went to pick it up, it burst into flames in a totally {{ adjectives }} way.
+</p>
+<p>
+{% if ending %}Thankfully, {{ person }} and {{person2}} reconciled their differences and skipped into the sunset holding hands.{% endif %}
+</p>
+</body>
+</html>

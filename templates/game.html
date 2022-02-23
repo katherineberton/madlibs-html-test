@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>Play madlibs!</title>
+  <link rel="stylesheet" href="/static/madlibs.css">
+</head>
+<body>
+
+    <form action="/madlib" method="post">
+        <p>
+            Person: 
+            <input type="text" name="person">
+        </p>
+        <p>
+            Color:
+            <input type="text" name="color">
+        </p>
+        <p>
+            Noun:
+            <input type="text" name="noun">
+        </p>
+        <p>
+            Adjective(s):
+            <input type="checkbox" name="adjectives" value="titillating">titillating
+            <input type="checkbox" name="adjectives" value="chilly">chilly
+            <input type="checkbox" name="adjectives" value="fuzzy">fuzzy
+            <input type="checkbox" name="adjectives" value="effervescent">effervescent
+            <input type="checkbox" name="adjectives" value="wooden">wooden
+        </p>
+        <p>
+           Noun:
+           <input type="radio" name="noun2" value="wireless keyboard">Wireless Keyboard
+           <input type="radio" name="noun2" value="webcam">Webcam
+           <input type="radio" name="noun2" value="balloonicorn plushie">Balloonicorn Plushie
+        </p>
+        <p>
+           Adjective:
+           <select name="adjective2">
+               <option value="coarse">Coarse</option>
+               <option value="fluffy">Fluffy</option>
+               <option value="tough">Tough</option>
+           </select>
+        </p>
+        <p>
+            Person:
+            <input type="text" name="person2">
+        </p>
+        <p>
+            Click this checkbox if you want to know the ending.
+            <input type="checkbox" name="wants ending">
+        </p>
+        <p><input type="submit"></p>
+
+        
+
+    </form>
+
+</body>
+</html>
